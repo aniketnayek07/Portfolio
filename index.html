@@ -1,156 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aniket Nayek</title>
-    <link href="./output.css" rel="stylesheet" />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body class="bg-skinbrown">
-    <!-- navbar -->
-    <div
-      class="w-full h-[90px] z-10 drop-shadow-navShadow bg-skinbrown absolute"
-    >
-      <div class="flex flex-row justify-between items-center px-10">
-        <img class="w-[97.23px] h-[80px] pt-2" src="images/signature.png" />
-        <div class="flex flex-row items-center gap-7 justify-center">
-          <a
-            class="font-raleway text-2xl font-normal text-darkbrown"
-            href="#about"
-            >About.</a
-          >
-          <a
-            class="font-raleway text-2xl font-normal text-darkbrown"
-            href="#skills"
-            >Skills.</a
-          >
-          <a class="font-raleway text-2xl font-normal text-darkbrown">Work.</a>
-          <a class="font-raleway text-2xl font-normal text-darkbrown"
-            >Contact.</a
-          >
-          <button
-            class="border-[3px] border-darkbrown rounded-lg px-4 py-2 drop-shadow-buttonShadow bg-skinbrown"
-          >
-            <span class="font-raleway text-[24px] text-darkbrown border-0"
-              >Resume</span
-            >
-          </button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aniket Nayek</title>
+  <link href="./output.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-skinbrown">
+  <!-- navbar -->
+  <div class="w-full h-[90px] z-10 drop-shadow-navShadow bg-skinbrown absolute">
+    <div class="flex flex-row justify-between items-center px-10">
+      <img class="w-[97.23px] h-[80px] pt-2" src="images/signature.png" />
+      <div class="flex flex-row items-center gap-7 justify-center">
+        <a class="font-raleway text-2xl font-normal text-darkbrown" href="#about">About.</a>
+        <a class="font-raleway text-2xl font-normal text-darkbrown" href="#skills">Skills.</a>
+        <a class="font-raleway text-2xl font-normal text-darkbrown">Work.</a>
+        <a class="font-raleway text-2xl font-normal text-darkbrown">Contact.</a>
+        <button class="border-[3px] border-darkbrown rounded-lg px-4 py-2 drop-shadow-buttonShadow bg-skinbrown">
+          <span class="font-raleway text-[24px] text-darkbrown border-0">Resume</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- body -->
+
+  <div class="flex flex-col w-full h-screen pt-[90px] justify-end px-16 gap-20 pb-10">
+    <div>
+      <p class="font-raleway text-[128px] text-darkbrown leading-[1]">
+        Hey There!
+      </p>
+      <p class="font-raleway text-[128px] text-darkbrown leading-[1.2]">
+        I'm <span class="font-bold">Aniket Nayek</span>
+      </p>
+      <p class="font-raleway text-2xl pl-2">
+        I am an engineering student with a passion for Front-End development
+        and a<br />
+        keen interest in UI/UX design
+      </p>
+    </div>
+
+    <div class="flex flex-row justify-between w-full pl-2 font-raleway text-2xl">
+      <p>Freelance<br />Web Developer</p>
+      <p>
+        Based In <br />
+        New Delhi
+      </p>
+      <p>
+        Get In Touch <br />
+        <a href="mailto:aniketnayek2837@gmail.com">aniketnayek2837@gmail.com</a>
+      </p>
+    </div>
+  </div>
+  <!-- About me -->
+  <div class="w-full bg-darkbrown mt-16 flex flex-row items-start justify-center px-10 py-14 gap-10" id="about">
+    <div class="min-w-[400px] w-[50%]">
+      <img class="rounded-xl drop-shadow-xl" src="images/its me.jpg" alt="Profile photo" />
+    </div>
+    <div class="flex flex-col gap-8">
+      <p class="text-8xl font-extrabold text-white font-raleway">About Me</p>
+      <hr style="border: 2px solid white" />
+      <p class="text-4xl font-raleway pr-8 text-skinbrown">
+        I, Aniket Nayek am a vibrant individual with a flare for UI/UX design
+        and a solid background in web development. I am passionate about
+        crafting captivating user experiences and has an excellent eye for
+        detail and technological know-how to produce original solutions.
+      </p>
+      <div class="text-[3.5rem] flex flex-row gap-10 pt-6 text-skinbrown">
+        <a href="https://www.instagram.com/aniiket.nayek/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/aniketnayek07"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/aniket-nayek-149a42229/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:aniketnayek2837@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+  <!-- skills -->
+  <div class="w-full mt-16 flex justify-center items-center flex-col gap-12" id="skills">
+    <p class="text-8xl font-extrabold text-darkbrown font-raleway text-center underline">
+      Skills
+    </p>
+    < </div>
+      <!-- Works -->
+      <div class="w-full bg-darkbrown mt-16 flex justify-center items-center flex-col">
+        <p class="text-8xl font-extrabold text-white font-raleway text-center pt-14">
+          Works
+        </p>
+        <div class="grid grid-cols-3 grid-flow-row gap-4 w-full h-full justify-center py-8 px-5 min-h-28">
+          <div class="w-[100%] h-[100%] bg-white"></div>
+          <div class="w-[100%] h-[100%] bg-white"></div>
+          <div class="w-[100%] h-[100%] bg-white"></div>
+          <div class="w-[100%] h-[100%] bg-white"></div>
+          <div class="w-[100%] h-[100%] bg-white"></div>
+          <div class="w-[100%] h-[100%] bg-white"></div>
         </div>
       </div>
-    </div>
-    <!-- body -->
-
-    <div
-      class="flex flex-col w-full h-screen pt-[90px] justify-end px-16 gap-20 pb-10"
-    >
-      <div>
-        <p class="font-raleway text-[128px] text-darkbrown leading-[1]">
-          Hey There!
-        </p>
-        <p class="font-raleway text-[128px] text-darkbrown leading-[1.2]">
-          I'm <span class="font-bold">Aniket Nayek</span>
-        </p>
-        <p class="font-raleway text-2xl pl-2">
-          I am an engineering student with a passion for Front-End development
-          and a<br />
-          keen interest in UI/UX design
-        </p>
-      </div>
-
-      <div
-        class="flex flex-row justify-between w-full pl-2 font-raleway text-2xl"
-      >
-        <p>Freelance<br />Web Developer</p>
-        <p>
-          Based In <br />
-          New Delhi
-        </p>
-        <p>
-          Get In Touch <br />
-          <a href="mailto:aniketnayek2837@gmail.com"
-            >aniketnayek2837@gmail.com</a
-          >
-        </p>
-      </div>
-    </div>
-    <!-- About me -->
-    <div
-      class="w-full bg-darkbrown mt-16 flex flex-row items-start justify-center px-10 py-14 gap-10"
-      id="about"
-    >
-      <div class="min-w-[400px] w-[50%]">
-        <img
-          class="rounded-xl drop-shadow-xl"
-          src="images/its me.jpg"
-          alt="Profile photo"
-        />
-      </div>
-      <div class="flex flex-col gap-8">
-        <p class="text-8xl font-extrabold text-white font-raleway">About Me</p>
-        <hr style="border: 2px solid white" />
-        <p class="text-4xl font-raleway pr-8 text-skinbrown">
-          I, Aniket Nayek am a vibrant individual with a flare for UI/UX design
-          and a solid background in web development. I am passionate about
-          crafting captivating user experiences and has an excellent eye for
-          detail and technological know-how to produce original solutions.
-        </p>
-        <div class="text-[3.5rem] flex flex-row gap-10 pt-6 text-skinbrown">
-          <a href="https://www.instagram.com/aniiket.nayek/"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a href="https://github.com/aniketnayek07"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/aniket-nayek-149a42229/"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
-          <a href="mailto:aniketnayek2837@gmail.com"
-            ><i class="fa-regular fa-envelope"></i
-          ></a>
+      <!-- Get In TOuch -->
+      <div class="flex flex-col justify-center mt-16 gap-10">
+        <p class="text-8xl font-black text-darkbrown font-raleway ">GET IN TOUCH</p>
+        <div class="flex flex-col text-center gap-5">
+          <p class="text-2xl font-semibold font-raleway">Thank you for visiting</p>
+          <div class="flex flex-col">
+            <p class="text-2xl font-semibold font-raleway">aniketnayek2837@gmail.com</p>
+            <p class="text-2xl font-semibold font-raleway">New Delhi, India</p>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- skills -->
-    <div
-      class="w-full mt-16 flex justify-center items-center flex-col gap-12"
-      id="skills"
-    >
-      <p
-        class="text-8xl font-extrabold text-darkbrown font-raleway text-center underline"
-      >
-        Skills
-      </p>
-      <div
-        class="text-[4rem] text-darkbrown grid grid-rows-3 grid-cols-4 grid-flow-col w-[50%] gap-5"
-      >
+      <!-- Contacts -->
+      <div class="flex flex-col justify-center items-center gap-9 w-full mt-16 bg-darkbrown px-10 py-14" id="contacts">
+        <p class="text-8xl  font-black text-white ">ANIKET NAYEK</p>
+        <div class="text-[3.5rem] flex flex-row gap-10 pt-6 text-white ">
+          <a href="https://www.instagram.com/aniiket.nayek/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/aniketnayek07"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/aniket-nayek-149a42229/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="mailto:aniketnayek2837@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+        <p class="text-2xl font-semibold font-raleway text-white">@2024 Aniket Nayek. All Rights Reserved.</p>
       </div>
-    <!-- Works -->
-    <div
-      class="w-full bg-darkbrown mt-16 flex justify-center items-center flex-col"
-    >
-      <p
-        class="text-8xl font-extrabold text-white font-raleway text-center pt-14"
-      >
-        Works
-      </p>
-      <div
-        class="grid grid-cols-3 grid-flow-row gap-4 w-full h-full justify-center py-8 px-5 min-h-28"
-      >
-        <div class="w-[100%] h-[100%] bg-white"></div>
-        <div class="w-[100%] h-[100%] bg-white"></div>
-        <div class="w-[100%] h-[100%] bg-white"></div>
-        <div class="w-[100%] h-[100%] bg-white"></div>
-        <div class="w-[100%] h-[100%] bg-white"></div>
-        <div class="w-[100%] h-[100%] bg-white"></div>
-      </div>
-    </div>
-    <div class="w-full h-screen z-[-1] absolute top-0" id="particles-js"></div>
+      <div class="w-full h-screen z-[-1] absolute top-0" id="particles-js"></div>
 
-    <script src="particles.js"></script>
-    <script src="script.js"></script>
-  </body>
+      <script src="particles.js"></script>
+      <script src="script.js"></script>
+</body>
+
 </html>
