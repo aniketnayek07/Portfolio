@@ -578,6 +578,10 @@ video {
   display: grid;
 }
 
+.h-3{
+  height: 0.75rem;
+}
+
 .h-\[100\%\]{
   height: 100%;
 }
@@ -598,8 +602,40 @@ video {
   height: 100vh;
 }
 
+.h-\[150px\]{
+  height: 150px;
+}
+
+.h-\[150rem\]{
+  height: 150rem;
+}
+
+.h-14{
+  height: 3.5rem;
+}
+
+.h-\[100px\]{
+  height: 100px;
+}
+
+.h-\[120px\]{
+  height: 120px;
+}
+
+.h-\[130px\]{
+  height: 130px;
+}
+
+.h-\[110px\]{
+  height: 110px;
+}
+
 .min-h-28{
   min-height: 7rem;
+}
+
+.w-3{
+  width: 0.75rem;
 }
 
 .w-\[100\%\]{
@@ -616,6 +652,26 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-\[150px\]{
+  width: 150px;
+}
+
+.w-\[150rem\]{
+  width: 150rem;
+}
+
+.w-14{
+  width: 3.5rem;
+}
+
+.w-\[100px\]{
+  width: 100px;
+}
+
+.w-\[120px\]{
+  width: 120px;
 }
 
 .min-w-\[400px\]{
@@ -636,10 +692,6 @@ video {
 
 .grid-cols-4{
   grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.grid-rows-4{
-  grid-template-rows: repeat(4, minmax(0, 1fr));
 }
 
 .grid-rows-3{
@@ -682,8 +734,16 @@ video {
   gap: 3rem;
 }
 
+.gap-2{
+  gap: 0.5rem;
+}
+
 .gap-20{
   gap: 5rem;
+}
+
+.gap-24{
+  gap: 6rem;
 }
 
 .gap-4{
@@ -704,10 +764,6 @@ video {
 
 .gap-9{
   gap: 2.25rem;
-}
-
-.gap-24{
-  gap: 6rem;
 }
 
 .rounded-lg{
@@ -775,6 +831,11 @@ video {
   padding-bottom: 3.5rem;
 }
 
+.py-16{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -783,11 +844,6 @@ video {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-16{
-  padding-top: 4rem;
-  padding-bottom: 4rem;
 }
 
 .pb-10{
@@ -808,6 +864,10 @@ video {
 
 .pt-2{
   padding-top: 0.5rem;
+}
+
+.pt-4{
+  padding-top: 1rem;
 }
 
 .pt-6{
@@ -851,20 +911,6 @@ video {
 
 .text-\[3\.5rem\]{
   font-size: 3.5rem;
-}
-
-.text-6xl{
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.font-black{
-  font-weight: 900;
 }
 
 .font-bold{
