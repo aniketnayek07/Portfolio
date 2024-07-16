@@ -17,3 +17,10 @@ html {
 #works {
   box-shadow: inset 0 4px 12px 8px rgba(0, 0, 0, 0.25);
 }
+/* CSS */
+.hover-effect:hover {
+  background-color: #d4a373;
+  /* Add shadow for depth */
+  transform:  #d4a373 scale(1.05) ; /* Slightly increase size */
+  transition: all 0.3s ease-in-out  ; /* Smooth transition for all changes */
+}
