@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 /*
-! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -213,8 +213,6 @@ textarea {
   /* 1 */
   line-height: inherit;
   /* 1 */
-  letter-spacing: inherit;
-  /* 1 */
   color: inherit;
   /* 1 */
   margin: 0;
@@ -238,9 +236,9 @@ select {
 */
 
 button,
-input:where([type='button']),
-input:where([type='reset']),
-input:where([type='submit']) {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
@@ -496,10 +494,6 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
-  --tw-contain-size:  ;
-  --tw-contain-layout:  ;
-  --tw-contain-paint:  ;
-  --tw-contain-style:  ;
 }
 
 ::backdrop{
@@ -550,18 +544,30 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
-  --tw-contain-size:  ;
-  --tw-contain-layout:  ;
-  --tw-contain-paint:  ;
-  --tw-contain-style:  ;
+}
+
+.static{
+  position: static;
+}
+
+.fixed{
+  position: fixed;
 }
 
 .absolute{
   position: absolute;
 }
 
+.relative{
+  position: relative;
+}
+
 .top-0{
   top: 0px;
+}
+
+.left-0{
+  left: 0px;
 }
 
 .z-10{
@@ -572,12 +578,20 @@ video {
   z-index: -1;
 }
 
-.mt-16{
-  margin-top: 4rem;
+.z-0{
+  z-index: 0;
+}
+
+.z-\[\]{
+  z-index: ;
 }
 
 .mb-14{
   margin-bottom: 3.5rem;
+}
+
+.mt-16{
+  margin-top: 4rem;
 }
 
 .flex{
@@ -612,8 +626,8 @@ video {
   height: 100vh;
 }
 
-.h-\[100\]{
-  height: 100;
+.h-\[100px\]{
+  height: 100px;
 }
 
 .min-h-28{
@@ -638,6 +652,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-\[100px\]{
+  width: 100px;
 }
 
 .min-w-\[400px\]{
@@ -879,6 +897,29 @@ video {
   font-size: 3.5rem;
 }
 
+.text-\[100px\]{
+  font-size: 100px;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-\[3\.2rem\]{
+  font-size: 3.2rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -956,10 +997,10 @@ html {
 /* CSS */
 
 .hover-effect:hover {
-  background-color: white;
+  background-color: #d4a373;
   /* Add shadow for depth */
-  transform: scale(1.05);
+  transform:  #d4a373 scale(1.05) ;
   /* Slightly increase size */
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out  ;
   /* Smooth transition for all changes */
 }
